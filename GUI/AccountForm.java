@@ -61,11 +61,22 @@ public void init () {
 	panelTaiKhoan.add(titleLabelTaiKhoan);
 	
 	cbbPhongBan = new myCombobox<String>();
+	cbbPhongBan.setModel(new DefaultComboBoxModel<>(cbbPhongString));
+	cbbPhongBan.setForeground(new Color (0,0,0,140));
+	cbbPhongBan.setForeground(new Color(0,0,0,200));
+	cbbPhongBan.setBounds(190,10,220,26);
+	panelTaiKhoan.add(cbbPhongBan);
+	((myCombobox<String>)cbbPhongBan).showArrow();
 	
+	scrollPane = new JScrollPane();
+	scrollPane.setBackground(Color.white);
+	scrollPane.setVerticalScrollBar(new myScrollBar());
+	scrollPane.setBorder(new EmptyBorder(0,0,0,0));
+	scrollPane.setBounds(10, 50, 400, 420);
+	panelTaiKhoan.add(scrollPane);
 	
-	
-	this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	this.setVisible(true);
+	tableAccount = new myTable();
+	tableAccount.setRowHeight(40);
 	
 }
 	public static void main(String[] args) {
