@@ -125,31 +125,34 @@ public class trangChuGUI extends javax.swing.JFrame {
         jLabel66 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         panelPhongBan = new javax.swing.JPanel();
-        jPanel2 = new RoundedPanel(30);
+        jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
+        panelHienThiThoiGian = new javax.swing.JPanel();
+        btnThemPhongBan = new javax.swing.JButton();
         panelQuyMoTrungBinh = new javax.swing.JPanel();
-        panelTongSoPhongBan1 = new javax.swing.JPanel();
-        panelTongSoPhongBan2 = new javax.swing.JPanel();
-        panelTongSoPhongBan3 = new javax.swing.JPanel();
-        panelTongSoPhongBan4 = new javax.swing.JPanel();
-        panelTongSoPhongBan5 = new javax.swing.JPanel();
-        panelTongSoPhongBan6 = new javax.swing.JPanel();
-        panelTongSoPhongBan7 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         panelTongSoPhongBan = new javax.swing.JPanel();
-        panelTongSoPhongBan9 = new javax.swing.JPanel();
-        panelTongSoPhongBan10 = new javax.swing.JPanel();
-        panelTongSoPhongBan11 = new javax.swing.JPanel();
-        panelTongSoPhongBan12 = new javax.swing.JPanel();
-        panelTongSoPhongBan13 = new javax.swing.JPanel();
-        panelTongSoPhongBan14 = new javax.swing.JPanel();
-        panelTongSoPhongBan15 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         panelTongSoNhanVien = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        btnTimPhongBan = new javax.swing.JButton();
+        btnThem2 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        btnSua = new javax.swing.JButton();
+        btnXoaPB = new javax.swing.JButton();
+        jPanel5 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        btnThayAnhPB = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -791,27 +794,27 @@ public class trangChuGUI extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(20, 40, 410, 17);
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        panelHienThiThoiGian.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout panelHienThiThoiGianLayout = new javax.swing.GroupLayout(panelHienThiThoiGian);
+        panelHienThiThoiGian.setLayout(panelHienThiThoiGianLayout);
+        panelHienThiThoiGianLayout.setHorizontalGroup(
+            panelHienThiThoiGianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 176, Short.MAX_VALUE)
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        panelHienThiThoiGianLayout.setVerticalGroup(
+            panelHienThiThoiGianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 46, Short.MAX_VALUE)
         );
 
-        jPanel2.add(jPanel3);
-        jPanel3.setBounds(710, 20, 180, 50);
+        jPanel2.add(panelHienThiThoiGian);
+        panelHienThiThoiGian.setBounds(710, 20, 180, 50);
 
-        jButton1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(102, 102, 102));
-        jButton1.setText("+ Thêm phòng ban mới ");
-        jPanel2.add(jButton1);
-        jButton1.setBounds(20, 63, 210, 30);
+        btnThemPhongBan.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnThemPhongBan.setForeground(new java.awt.Color(102, 102, 102));
+        btnThemPhongBan.setText("+ Thêm phòng ban mới ");
+        jPanel2.add(btnThemPhongBan);
+        btnThemPhongBan.setBounds(20, 60, 210, 30);
 
         panelPhongBan.add(jPanel2);
         jPanel2.setBounds(16, 6, 910, 100);
@@ -819,46 +822,8 @@ public class trangChuGUI extends javax.swing.JFrame {
         panelQuyMoTrungBinh.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         panelQuyMoTrungBinh.setLayout(null);
 
-        panelTongSoPhongBan1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan1.setLayout(null);
-        panelQuyMoTrungBinh.add(panelTongSoPhongBan1);
-        panelTongSoPhongBan1.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan2.setLayout(null);
-
-        panelTongSoPhongBan3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan3.setLayout(null);
-        panelTongSoPhongBan2.add(panelTongSoPhongBan3);
-        panelTongSoPhongBan3.setBounds(20, 120, 280, 120);
-
-        panelQuyMoTrungBinh.add(panelTongSoPhongBan2);
-        panelTongSoPhongBan2.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan4.setLayout(null);
-
-        panelTongSoPhongBan5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan5.setLayout(null);
-        panelTongSoPhongBan4.add(panelTongSoPhongBan5);
-        panelTongSoPhongBan5.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan6.setLayout(null);
-
-        panelTongSoPhongBan7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan7.setLayout(null);
-        panelTongSoPhongBan6.add(panelTongSoPhongBan7);
-        panelTongSoPhongBan7.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan4.add(panelTongSoPhongBan6);
-        panelTongSoPhongBan6.setBounds(20, 120, 280, 120);
-
-        panelQuyMoTrungBinh.add(panelTongSoPhongBan4);
-        panelTongSoPhongBan4.setBounds(20, 120, 280, 120);
-
         jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        jLabel6.setText("Quy mô trùng bình ");
+        jLabel6.setText("Quy mô trung bình ");
         panelQuyMoTrungBinh.add(jLabel6);
         jLabel6.setBounds(70, 10, 190, 22);
 
@@ -867,44 +832,6 @@ public class trangChuGUI extends javax.swing.JFrame {
 
         panelTongSoPhongBan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         panelTongSoPhongBan.setLayout(null);
-
-        panelTongSoPhongBan9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan9.setLayout(null);
-        panelTongSoPhongBan.add(panelTongSoPhongBan9);
-        panelTongSoPhongBan9.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan10.setLayout(null);
-
-        panelTongSoPhongBan11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan11.setLayout(null);
-        panelTongSoPhongBan10.add(panelTongSoPhongBan11);
-        panelTongSoPhongBan11.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan.add(panelTongSoPhongBan10);
-        panelTongSoPhongBan10.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan12.setLayout(null);
-
-        panelTongSoPhongBan13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan13.setLayout(null);
-        panelTongSoPhongBan12.add(panelTongSoPhongBan13);
-        panelTongSoPhongBan13.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan14.setLayout(null);
-
-        panelTongSoPhongBan15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        panelTongSoPhongBan15.setLayout(null);
-        panelTongSoPhongBan14.add(panelTongSoPhongBan15);
-        panelTongSoPhongBan15.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan12.add(panelTongSoPhongBan14);
-        panelTongSoPhongBan14.setBounds(20, 120, 280, 120);
-
-        panelTongSoPhongBan.add(panelTongSoPhongBan12);
-        panelTongSoPhongBan12.setBounds(20, 120, 280, 120);
 
         jLabel4.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel4.setText("Tổng số phòng ban ");
@@ -924,6 +851,126 @@ public class trangChuGUI extends javax.swing.JFrame {
 
         panelPhongBan.add(panelTongSoNhanVien);
         panelTongSoNhanVien.setBounds(330, 120, 280, 90);
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        jPanel4.setLayout(null);
+
+        jLabel7.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jLabel7.setText("Danh sách phòng ban");
+        jPanel4.add(jLabel7);
+        jLabel7.setBounds(20, 10, 280, 28);
+
+        jTextField1.setText("jTextField1");
+        jPanel4.add(jTextField1);
+        jTextField1.setBounds(20, 50, 210, 30);
+
+        btnTimPhongBan.setBackground(new java.awt.Color(51, 204, 255));
+        btnTimPhongBan.setText("Tìm");
+        jPanel4.add(btnTimPhongBan);
+        btnTimPhongBan.setBounds(230, 50, 40, 30);
+
+        btnThem2.setBackground(new java.awt.Color(102, 255, 0));
+        btnThem2.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btnThem2.setText("Thêm");
+        btnThem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnThem2ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnThem2);
+        btnThem2.setBounds(290, 50, 90, 30);
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
+            },
+            new String [] {
+                "Tên phòng ban", "Quản lý", "Số nhân viên "
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+
+        jPanel4.add(jScrollPane1);
+        jScrollPane1.setBounds(10, 90, 570, 220);
+
+        btnSua.setBackground(new java.awt.Color(255, 255, 0));
+        btnSua.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btnSua.setText("Sửa");
+        btnSua.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSuaActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnSua);
+        btnSua.setBounds(390, 50, 90, 30);
+
+        btnXoaPB.setBackground(new java.awt.Color(255, 0, 0));
+        btnXoaPB.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btnXoaPB.setText("Xóa");
+        btnXoaPB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnXoaPBActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnXoaPB);
+        btnXoaPB.setBounds(490, 50, 90, 30);
+
+        panelPhongBan.add(jPanel4);
+        jPanel4.setBounds(20, 230, 590, 320);
+
+        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        jPanel5.setLayout(null);
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 96, Short.MAX_VALUE)
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 116, Short.MAX_VALUE)
+        );
+
+        jPanel5.add(jPanel6);
+        jPanel6.setBounds(90, 20, 100, 120);
+
+        btnThayAnhPB.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnThayAnhPB.setText("Thay ảnh");
+        jPanel5.add(btnThayAnhPB);
+        btnThayAnhPB.setBounds(90, 150, 100, 24);
+
+        jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel8.setText("Vai trò:");
+        jPanel5.add(jLabel8);
+        jLabel8.setBounds(50, 190, 50, 17);
+
+        jLabel9.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel9.setText("Phòng Ban: ");
+        jPanel5.add(jLabel9);
+        jLabel9.setBounds(20, 220, 90, 17);
+
+        jButton1.setBackground(new java.awt.Color(0, 255, 255));
+        jButton1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton1.setText("THÔNG BÁO");
+        jPanel5.add(jButton1);
+        jButton1.setBounds(75, 260, 140, 40);
+
+        jLabel10.setText("jLabel10");
+        jPanel5.add(jLabel10);
+        jLabel10.setBounds(120, 190, 43, 16);
+
+        jLabel11.setText("jLabel11");
+        jPanel5.add(jLabel11);
+        jLabel11.setBounds(120, 220, 43, 16);
+
+        panelPhongBan.add(jPanel5);
+        jPanel5.setBounds(640, 230, 280, 320);
 
         jPanelContent.add(panelPhongBan, "card5");
 
@@ -975,6 +1022,18 @@ public class trangChuGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_comboPhutRaActionPerformed
 
+    private void btnThem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThem2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnThem2ActionPerformed
+
+    private void btnSuaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSuaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSuaActionPerformed
+
+    private void btnXoaPBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoaPBActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnXoaPBActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1020,12 +1079,18 @@ public class trangChuGUI extends javax.swing.JFrame {
     private javax.swing.JButton btnGhiNhanChamCong;
     private javax.swing.JButton btnNhanVien;
     private javax.swing.JButton btnPhongBan;
+    private javax.swing.JButton btnSua;
     private javax.swing.JButton btnThayAnh;
+    private javax.swing.JButton btnThayAnhPB;
     private javax.swing.JButton btnThem;
+    private javax.swing.JButton btnThem2;
+    private javax.swing.JButton btnThemPhongBan;
+    private javax.swing.JButton btnTimPhongBan;
     private javax.swing.JButton btnTimkiempanelNhanVien;
     private javax.swing.JButton btnTrangChu;
     private javax.swing.JButton btnXemChiTiet;
     private javax.swing.JButton btnXoa;
+    private javax.swing.JButton btnXoaPB;
     private javax.swing.JButton btnclear;
     private javax.swing.JPanel chamCongTab1;
     private javax.swing.JPanel chamCongTab2;
@@ -1045,6 +1110,8 @@ public class trangChuGUI extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> comboThangSinh;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -1065,14 +1132,22 @@ public class trangChuGUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanelContent;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable5;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JLabel labelChamCong;
     private javax.swing.JLabel labelChamCongTab1;
@@ -1104,6 +1179,7 @@ public class trangChuGUI extends javax.swing.JFrame {
     private javax.swing.JPanel panelDanhSachChamCong;
     private javax.swing.JPanel panelGhiNhanChamCong;
     private javax.swing.JPanel panelHeader;
+    private javax.swing.JPanel panelHienThiThoiGian;
     private javax.swing.JPanel panelHienThiThongTinCaNhan;
     private javax.swing.JPanel panelMenu;
     private javax.swing.JPanel panelNhanVien;
@@ -1118,20 +1194,6 @@ public class trangChuGUI extends javax.swing.JFrame {
     private javax.swing.JPanel panelTongNhanVien;
     private javax.swing.JPanel panelTongSoNhanVien;
     private javax.swing.JPanel panelTongSoPhongBan;
-    private javax.swing.JPanel panelTongSoPhongBan1;
-    private javax.swing.JPanel panelTongSoPhongBan10;
-    private javax.swing.JPanel panelTongSoPhongBan11;
-    private javax.swing.JPanel panelTongSoPhongBan12;
-    private javax.swing.JPanel panelTongSoPhongBan13;
-    private javax.swing.JPanel panelTongSoPhongBan14;
-    private javax.swing.JPanel panelTongSoPhongBan15;
-    private javax.swing.JPanel panelTongSoPhongBan2;
-    private javax.swing.JPanel panelTongSoPhongBan3;
-    private javax.swing.JPanel panelTongSoPhongBan4;
-    private javax.swing.JPanel panelTongSoPhongBan5;
-    private javax.swing.JPanel panelTongSoPhongBan6;
-    private javax.swing.JPanel panelTongSoPhongBan7;
-    private javax.swing.JPanel panelTongSoPhongBan9;
     private javax.swing.JPanel panelTrangChu;
     private javax.swing.JTabbedPane tabChamCong;
     private javax.swing.JTable tableTrangChu;
