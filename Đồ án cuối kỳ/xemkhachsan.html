@@ -146,6 +146,28 @@
       <div class="border rounded p-3">
         <h5 class="fw-semibold mb-3">Chọn phòng</h5>
 
+       <div class="d-flex align-items-center mb-3 border rounded p-2">
+          <img src="https://www.hoteljob.vn/files/Anh-Hoteljob-Ni/Nam-2019/Thang-6/Bo-sung-2/tim-hieu-dien-tich-phong-tieu-chuan-cac-hang-sao-khach-san-02.jpg" class="rounded me-3" style="width: 80px; height: 80px; object-fit: cover" />
+          <div class="flex-grow-1">
+            <div class="fw-semibold">Phòng Tiêu chuẩn</div>
+            <small class="text-muted d-block mb-1">
+              <i class="bi bi-arrows-angle-expand me-1"></i> 20m²
+              <i class="bi bi-people ms-3 me-1"></i> 2 khách
+              <i class="bi bi-bed ms-3 me-1"></i> 1 giường đơn
+            </small>
+            <span class="text-primary fw-bold" id="standardPriceText">Đang tải...</span>
+          </div>
+          <button 
+            class="btn btn-outline-secondary btn-sm ms-3" 
+            onclick="chooseRoom(this)" 
+            data-room="Phòng Tiêu chuẩn" 
+            id="standardRoomBtn">
+            Chọn phòng
+          </button>
+        </div>
+
+
+
         <div class="d-flex align-items-center mb-3 border rounded p-2">
           <img
             src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/196409801.jpg?k=ebad87431ef2fdea794c3196c5da5e46e0f18c8fec206c293480a827048e8981&o=&s=1024x"
@@ -209,15 +231,15 @@
         <h5 class="fw-semibold mb-3">Thông tin đặt phòng</h5>
         <div class="mb-2 d-flex justify-content-between">
           <div>Nhận phòng:</div>
-          <div>25/05/2024</div>
+          <div id="checkinText"></div>
         </div>
         <div class="mb-2 d-flex justify-content-between">
           <div>Trả phòng:</div>
-          <div>27/05/2024</div>
+          <div id="checkoutText"></div>
         </div>
         <div class="mb-3 d-flex justify-content-between">
           <div>Khách:</div>
-          <div>2 người, 1 phòng</div>
+          <div id="guestsText"></div>
         </div>
         <div
           class="fw-bold fs-5 d-flex justify-content-between align-items-center border-top pt-3"
@@ -227,7 +249,7 @@
        <div class="text-primary" id="totalPrice"> ₫0</div> <!-- thêm id để JavaScript cập nhật -->
         </div>
         </div>
-        <a href="dondatphong.html" onclick="saveBookingInfo()" class="btn btn-warning w-100 fw-semibold mb-2">Đặt ngay</a>
+        <a href="dondatphong.html" class="btn btn-warning w-100 fw-semibold mb-2">Đặt ngay</a>
       </div>
     </div>
   </div>
